@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <form name="calculatorForm">
+        <input type="text" name="display" id="display" readonly value="0" />
+      </form>
+      <div class="buttons">
+        <!-- Top Row: AC, DEL, +/-, / -->
+        <button onclick="clearDisplay()" class="btn-clear">AC</button>
+        <button onclick="del()" class="btn-delete">DEL</button>
+        <button onclick="toggleSign()" class="btn-toggle-sign">+/-</button>
+        <button onclick="appendToDisplay('/')" class="btn-operator">/</button>
+
+        <!-- Number Pad and Operations: 7-9, 4-6, 1-3, *, -, + -->
+        <button onclick="appendToDisplay('7')" class="btn-number">7</button>
+        <button onclick="appendToDisplay('8')" class="btn-number">8</button>
+        <button onclick="appendToDisplay('9')" class="btn-number">9</button>
+        <button onclick="appendToDisplay('*')" class="btn-operator">*</button>
+
+        <button onclick="appendToDisplay('4')" class="btn-number">4</button>
+        <button onclick="appendToDisplay('5')" class="btn-number">5</button>
+        <button onclick="appendToDisplay('6')" class="btn-number">6</button>
+        <button onclick="appendToDisplay('-')" class="btn-operator">-</button>
+
+        <button onclick="appendToDisplay('1')" class="btn-number">1</button>
+        <button onclick="appendToDisplay('2')" class="btn-number">2</button>
+        <button onclick="appendToDisplay('3')" class="btn-number">3</button>
+        <button onclick="appendToDisplay('+')" class="btn-operator">+</button>
+
+        <!-- Bottom Row: 0, ., = -->
+        <button onclick="appendToDisplay('0')" class="btn-number zero">0</button>
+        <button onclick="appendToDisplay('.')" class="btn-number">.</button>
+        <button onclick="calculateResult()" class="btn-equal">=</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

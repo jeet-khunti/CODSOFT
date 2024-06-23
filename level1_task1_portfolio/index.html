@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeet Khunti | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation -->
+      <nav class="top-menu-container">
+        <div class="logo-header">
+          <a href="#">
+            <i class="fas fa-code logo"></i>
+          </a>
+        </div>
+        <!-- Menu Toggle Button -->
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero-container">
+      <div class="hero-wrapper">
+        <h1>
+          Hello! <br />
+          <span>I'm</span>
+          <span class="highlight">Jeet Khunti.</span>
+        </h1>
+        <div class="btn-wrapper">
+          <a href="#contact" class="btn">Let's Connect</a>
+          <a href="#about" class="btn">View Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="header-section">
+        <h2 class="dark big">About</h2>
+        <hr />
+      </div>
+      <div class="about-content">
+        <div class="about-info">
+          <div class="about-photo">
+            <img src="img/profile-photo.jpg" alt="Profile Photo" />
+          </div>
+          <div class="about-text">
+            <p>
+              Hello! I'm Jeet Khunti, a passionate web developer with a strong
+              background in front-end and back-end technologies. I specialize in
+              creating responsive and user-friendly web applications. With an
+              experience in React.js, Node.js and MongoDB, I enjoy turning
+              complex problems into simple, beautiful, and intuitive solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="header-section">
+        <h2 class="dark big">Skills</h2>
+        <hr />
+      </div>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-html5 skill-icon"></i>
+          <h3>HTML5</h3>
+          <p>Structuring web content with semantic HTML5 elements.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt skill-icon"></i>
+          <h3>CSS3</h3>
+          <p>Styling websites with CSS3 for a modern and responsive look.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square skill-icon"></i>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and dynamic behavior to web pages.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react skill-icon"></i>
+          <h3>React.js</h3>
+          <p>Building efficient and scalable single-page applications.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-node skill-icon"></i>
+          <h3>Node.js</h3>
+          <p>Creating fast and scalable server-side applications.</p>
+        </div>
+        <div class="skill-card">
+          <!-- <i class="fas fa-database skill-icon"></i> -->
+          <svg width="3rem" height="3.55rem" xmlns="http://www.w3.org/2000/svg">
+            <image
+              href="img/mongodb.svg"
+              height="3rem"
+              width="3rem"
+              class="skill-icon-svg"
+            />
+          </svg>
+          <h3>MongoDB</h3>
+          <p>
+            Managing data with a NoSQL database for flexibility and performance.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt skill-icon"></i>
+          <h3>Git</h3>
+          <p>Version control and collaboration using Git.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-bootstrap skill-icon"></i>
+          <h3>Bootstrap</h3>
+          <p>Utilizing Bootstrap for responsive, mobile-first design.</p>
+        </div>
+        <div class="skill-card">
+          <!-- <i class="fab fa-css3 skill-icon"></i> -->
+          <svg width="3rem" height="3.55rem" xmlns="http://www.w3.org/2000/svg">
+            <image
+              href="img/tailwind-css.svg"
+              height="3rem"
+              width="3rem"
+              class="skill-icon-svg"
+            />
+          </svg>
+          <h3>Tailwind CSS</h3>
+          <p>
+            Creating custom designs with Tailwind CSS utility-first framework.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-sass skill-icon"></i>
+          <h3>Sass</h3>
+          <p>Enhancing CSS with variables, mixins, and more.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="header-section">
+        <h2 class="dark big">Projects</h2>
+        <hr />
+      </div>
+      <div class="container-grid-3">
+        <div class="project-item">
+          <h3>Admissions</h3>
+          <p>
+            A MERN stack app for managing admissions and generating offer
+            letters.
+          </p>
+          <p>
+            <small
+              >Technologies used: React.js, Node.js, Express, MongoDB,
+              Bootstrap</small
+            >
+          </p>
+        </div>
+        <div class="project-item">
+          <h3>FashionForHim</h3>
+          <p>A front-end fashion blogging website with a responsive design.</p>
+          <p>
+            <small>Technologies used: HTML5, CSS3, JavaScript, Bootstrap</small>
+          </p>
+        </div>
+        <div class="project-item">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive personal portfolio website built with HTML and CSS.
+          </p>
+          <p><small>Technologies used: HTML5, CSS3, JavaScript</small></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="header-section">
+        <h2 class="dark big">Contact</h2>
+        <hr />
+      </div>
+      <div class="contact-container">
+        <form
+          action="mailto:your-email@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p class="contact-text">
+          Alternatively, you can email me directly at
+          <a href="mailto:khuntijeet66@gmail.com">khuntijeet66@gmail.com</a>.
+        </p>
+        <a href="jeet-khunti-resume.pdf" class="btn resume-btn"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-footer">
+        <i class="fas fa-code logo"></i>
+        <p>&copy; <span id="year"></span> Jeet Khunti. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jeet-khunti"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/jeet-khunti"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", function () {
+          navLinks.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>

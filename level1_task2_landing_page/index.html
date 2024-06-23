@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketMinds - Marketing Agency</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="header-logo">
+          <img src="images/logo1.png" alt="Logo" />
+          <h2>MarketMinds</h2>
+        </div>
+      </a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Driving growth through innovative marketing strategies</h2>
+          <p>
+            Allow our team of marketing experts to devise a strategy that
+            enhances your online presence and increases brand awareness.
+          </p>
+          <a href="#">Find out more</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-content">
+          <h3>About Us</h3>
+          <p>
+            As a premier digital marketing agency, we specialize in empowering
+            businesses to thrive and expand online. Backed by a seasoned team,
+            we offer customized solutions that cater to each client’s distinct
+            requirements. Our commitment is to achieve tangible outcomes by
+            leveraging strategic planning, cutting-edge marketing methods, and
+            unparalleled client support.
+          </p>
+          <p>
+            We possess expertise in diverse facets of digital marketing,
+            encompassing SEO, social media management, content creation, and
+            email marketing. Allow us to assist you in reaching your business
+            objectives and distinguishing yourself in the competitive online
+            environment.
+          </p>
+        </div>
+        <img src="images/about.png" alt="About Us" />
+      </section>
+
+      <section class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-grid">
+          <div class="service">
+            <i class="fa fa-bullhorn service-icon"></i>
+            <h4>Brand Strategy</h4>
+            <p>
+              Develop a strong brand identity and positioning to stand out in
+              the market.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-chart-line service-icon"></i>
+            <h4>Performance Marketing</h4>
+            <p>
+              Drive measurable results through data-driven marketing campaigns.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-users service-icon"></i>
+            <h4>Customer Engagement</h4>
+            <p>
+              Enhance customer interactions and loyalty through tailored
+              engagement strategies.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-globe service-icon"></i>
+            <h4>Digital Transformation</h4>
+            <p>
+              Implement digital solutions to modernize and streamline your
+              business operations.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-ad service-icon"></i>
+            <h4>Paid Advertising</h4>
+            <p>
+              Maximize your reach and ROI with targeted paid advertising
+              campaigns.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <h3>Client Testimonials</h3>
+        <div class="testimonial-grid">
+          <blockquote>
+            "MarketMinds transformed our online presence completely. Their
+            digital strategies led to a 50% increase in our customer engagement
+            and sales within three months." <br />
+            <cite
+              ><small
+                >- Sarah Thompson, Creative Director, DreamScape</small
+              ></cite
+            >
+          </blockquote>
+          <blockquote>
+            "The professionalism and dedication of the MarketMinds team are
+            unmatched. Their brand strategy and performance marketing services
+            have driven impressive results for our company." <br />
+            <cite><small>- Michael Rodriguez, CEO, TechInnovate</small></cite>
+          </blockquote>
+          <blockquote>
+            "Working with MarketMinds has been a game-changer for our business.
+            Their expertise in customer engagement and paid advertising helped
+            us achieve a significant boost in our ROI." <br />
+            <cite
+              ><small
+                >- Emily Johnson, Marketing Manager, GreenTech Solutions</small
+              ></cite
+            >
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-info">
+          <p><i class="fa fa-map-marker-alt"></i> 12, Main Road, City, India</p>
+          <p><i class="fa fa-envelope"></i> info@email.com</p>
+          <p><i class="fa fa-phone"></i> +1234567890</p>
+          <p><i class="fa fa-fax"></i> +1234567890</p>
+        </div>
+        <form action="submit-form.php" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> MarketMinds. All rights reserved.</p>
+      <p>
+        <a
+          href="https://www.freepik.com/free-vector/illustration-team-management-cartoon-flat_5306692.htm#fromView=search&page=1&position=11&uuid=39b0e0d3-550d-4bef-8cbf-965537a097f2"
+          >Image by teravector on Freepik</a
+        >&nbsp;&nbsp;|&nbsp;&nbsp;<a
+          href="https://www.freepik.com/free-vector/marketing-consulting-concept-illustration_25025577.htm#fromView=search&page=1&position=0&uuid=88b47b2b-3d6a-4a6d-bc97-c80a694b060a"
+          >Image by storyset on Freepik</a
+        >
+      </p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
