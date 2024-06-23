@@ -114,25 +114,6 @@ p {
   line-height: 1.5;
 }
 
-/* .hero a, button{
-  padding: 15px 25px;
-  text-align: center;
-  transition: 0.8s;
-  background: #3c95d9;
-  background: linear-gradient(90deg, #cc4e3f, #385A64 51%, #cc4e3f) var(--x, 0) /
-    200%;
-  border-radius: 55px;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  font-size: 1em;
-}
-
-.hero a:hover, button:hover {
-  --x: 100%;
-  cursor: pointer;
-} */
-
 /* inspired form gumroad website */
 .hero a,
 button {
