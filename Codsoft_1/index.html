@@ -3,253 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeet Khunti | Portfolio</title>
+    <title>MarketMinds - Marketing Agency</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
   </head>
   <body>
     <header>
-      <!-- Navigation -->
-      <nav class="top-menu-container">
-        <div class="logo-header">
-          <a href="#">
-            <i class="fas fa-code logo"></i>
-          </a>
+      <a href="index.html">
+        <div class="header-logo">
+          <img src="images/logo1.png" alt="Logo" />
+          <h2>MarketMinds</h2>
         </div>
-        <!-- Menu Toggle Button -->
-        <div class="menu-toggle">
-          <i class="fas fa-bars"></i>
-        </div>
-        <ul class="nav-links">
+      </a>
+      <nav class="header-nav">
+        <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- Hero Section -->
-    <section id="hero-container">
-      <div class="hero-wrapper">
-        <h1>
-          Hello! <br />
-          <span>I'm</span>
-          <span class="highlight">Jeet Khunti.</span>
-        </h1>
-        <div class="btn-wrapper">
-          <a href="#contact" class="btn">Let's Connect</a>
-          <a href="#about" class="btn">View Portfolio</a>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Driving growth through innovative marketing strategies</h2>
+          <p>
+            Allow our team of marketing experts to devise a strategy that
+            enhances your online presence and increases brand awareness.
+          </p>
+          <a href="#">Find out more</a>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About Section -->
-    <section class="section" id="about">
-      <div class="header-section">
-        <h2 class="dark big">About</h2>
-        <hr />
-      </div>
-      <div class="about-content">
-        <div class="about-info">
-          <div class="about-photo">
-            <img src="img/profile-photo.jpg" alt="Profile Photo" />
-          </div>
-          <div class="about-text">
+      <section class="about" id="about">
+        <div class="about-content">
+          <h3>About Us</h3>
+          <p>
+            As a premier digital marketing agency, we specialize in empowering
+            businesses to thrive and expand online. Backed by a seasoned team,
+            we offer customized solutions that cater to each client’s distinct
+            requirements. Our commitment is to achieve tangible outcomes by
+            leveraging strategic planning, cutting-edge marketing methods, and
+            unparalleled client support.
+          </p>
+          <p>
+            We possess expertise in diverse facets of digital marketing,
+            encompassing SEO, social media management, content creation, and
+            email marketing. Allow us to assist you in reaching your business
+            objectives and distinguishing yourself in the competitive online
+            environment.
+          </p>
+        </div>
+        <img src="images/about.png" alt="About Us" />
+      </section>
+
+      <section class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-grid">
+          <div class="service">
+            <i class="fa fa-bullhorn service-icon"></i>
+            <h4>Brand Strategy</h4>
             <p>
-              Hello! I'm Jeet Khunti, a passionate web developer with a strong
-              background in front-end and back-end technologies. I specialize in
-              creating responsive and user-friendly web applications. With an
-              experience in React.js, Node.js and MongoDB, I enjoy turning
-              complex problems into simple, beautiful, and intuitive solutions.
+              Develop a strong brand identity and positioning to stand out in
+              the market.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-chart-line service-icon"></i>
+            <h4>Performance Marketing</h4>
+            <p>
+              Drive measurable results through data-driven marketing campaigns.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-users service-icon"></i>
+            <h4>Customer Engagement</h4>
+            <p>
+              Enhance customer interactions and loyalty through tailored
+              engagement strategies.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-globe service-icon"></i>
+            <h4>Digital Transformation</h4>
+            <p>
+              Implement digital solutions to modernize and streamline your
+              business operations.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa fa-ad service-icon"></i>
+            <h4>Paid Advertising</h4>
+            <p>
+              Maximize your reach and ROI with targeted paid advertising
+              campaigns.
             </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Skills Section -->
-    <section class="section" id="skills">
-      <div class="header-section">
-        <h2 class="dark big">Skills</h2>
-        <hr />
-      </div>
-      <div class="skills-container">
-        <div class="skill-card">
-          <i class="fab fa-html5 skill-icon"></i>
-          <h3>HTML5</h3>
-          <p>Structuring web content with semantic HTML5 elements.</p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-css3-alt skill-icon"></i>
-          <h3>CSS3</h3>
-          <p>Styling websites with CSS3 for a modern and responsive look.</p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-js-square skill-icon"></i>
-          <h3>JavaScript</h3>
-          <p>Adding interactivity and dynamic behavior to web pages.</p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-react skill-icon"></i>
-          <h3>React.js</h3>
-          <p>Building efficient and scalable single-page applications.</p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-node skill-icon"></i>
-          <h3>Node.js</h3>
-          <p>Creating fast and scalable server-side applications.</p>
-        </div>
-        <div class="skill-card">
-          <!-- <i class="fas fa-database skill-icon"></i> -->
-          <svg width="3rem" height="3.55rem" xmlns="http://www.w3.org/2000/svg">
-            <image
-              href="img/mongodb.svg"
-              height="3rem"
-              width="3rem"
-              class="skill-icon-svg"
-            />
-          </svg>
-          <h3>MongoDB</h3>
-          <p>
-            Managing data with a NoSQL database for flexibility and performance.
-          </p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-git-alt skill-icon"></i>
-          <h3>Git</h3>
-          <p>Version control and collaboration using Git.</p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-bootstrap skill-icon"></i>
-          <h3>Bootstrap</h3>
-          <p>Utilizing Bootstrap for responsive, mobile-first design.</p>
-        </div>
-        <div class="skill-card">
-          <!-- <i class="fab fa-css3 skill-icon"></i> -->
-          <svg width="3rem" height="3.55rem" xmlns="http://www.w3.org/2000/svg">
-            <image
-              href="img/tailwind-css.svg"
-              height="3rem"
-              width="3rem"
-              class="skill-icon-svg"
-            />
-          </svg>
-          <h3>Tailwind CSS</h3>
-          <p>
-            Creating custom designs with Tailwind CSS utility-first framework.
-          </p>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-sass skill-icon"></i>
-          <h3>Sass</h3>
-          <p>Enhancing CSS with variables, mixins, and more.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="section" id="projects">
-      <div class="header-section">
-        <h2 class="dark big">Projects</h2>
-        <hr />
-      </div>
-      <div class="container-grid-3">
-        <div class="project-item">
-          <h3>Admissions</h3>
-          <p>
-            A MERN stack app for managing admissions and generating offer
-            letters.
-          </p>
-          <p>
-            <small
-              >Technologies used: React.js, Node.js, Express, MongoDB,
-              Bootstrap</small
+      <section class="testimonials" id="testimonials">
+        <h3>Client Testimonials</h3>
+        <div class="testimonial-grid">
+          <blockquote>
+            "MarketMinds transformed our online presence completely. Their
+            digital strategies led to a 50% increase in our customer engagement
+            and sales within three months." <br />
+            <cite
+              ><small
+                >- Sarah Thompson, Creative Director, DreamScape</small
+              ></cite
             >
-          </p>
+          </blockquote>
+          <blockquote>
+            "The professionalism and dedication of the MarketMinds team are
+            unmatched. Their brand strategy and performance marketing services
+            have driven impressive results for our company." <br />
+            <cite><small>- Michael Rodriguez, CEO, TechInnovate</small></cite>
+          </blockquote>
+          <blockquote>
+            "Working with MarketMinds has been a game-changer for our business.
+            Their expertise in customer engagement and paid advertising helped
+            us achieve a significant boost in our ROI." <br />
+            <cite
+              ><small
+                >- Emily Johnson, Marketing Manager, GreenTech Solutions</small
+              ></cite
+            >
+          </blockquote>
         </div>
-        <div class="project-item">
-          <h3>FashionForHim</h3>
-          <p>A front-end fashion blogging website with a responsive design.</p>
-          <p>
-            <small>Technologies used: HTML5, CSS3, JavaScript, Bootstrap</small>
-          </p>
-        </div>
-        <div class="project-item">
-          <h3>Personal Portfolio</h3>
-          <p>
-            A responsive personal portfolio website built with HTML and CSS.
-          </p>
-          <p><small>Technologies used: HTML5, CSS3, JavaScript</small></p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <section class="section" id="contact">
-      <div class="header-section">
-        <h2 class="dark big">Contact</h2>
-        <hr />
-      </div>
-      <div class="contact-container">
-        <form
-          action="mailto:your-email@example.com"
-          method="post"
-          enctype="text/plain"
-        >
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            rows="4"
-            required
-          ></textarea>
-          <button type="submit" class="btn">Send Message</button>
+      <section class="contact" id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-info">
+          <p><i class="fa fa-map-marker-alt"></i> 12, Main Road, City, India</p>
+          <p><i class="fa fa-envelope"></i> info@email.com</p>
+          <p><i class="fa fa-phone"></i> +1234567890</p>
+          <p><i class="fa fa-fax"></i> +1234567890</p>
+        </div>
+        <form action="submit-form.php" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
         </form>
-        <p class="contact-text">
-          Alternatively, you can email me directly at
-          <a href="mailto:khuntijeet66@gmail.com">khuntijeet66@gmail.com</a>.
-        </p>
-        <a href="jeet-khunti-resume.pdf" class="btn resume-btn" target="_blank"
-          >Download Resume</a
-        >
-      </div>
-    </section>
-
-    <!-- Footer -->
+      </section>
+    </main>
     <footer>
-      <div class="container-footer">
-        <i class="fas fa-code logo"></i>
-        <p>&copy; <span id="year"></span> Jeet Khunti. All rights reserved.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/jeet-khunti"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/jeet-khunti"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-      </div>
+      <p>&copy; <span id="year"></span> MarketMinds. All rights reserved.</p>
+      <p>
+        <a
+          href="https://www.freepik.com/free-vector/illustration-team-management-cartoon-flat_5306692.htm#fromView=search&page=1&position=11&uuid=39b0e0d3-550d-4bef-8cbf-965537a097f2"
+          >Image by teravector on Freepik</a
+        >&nbsp;&nbsp;|&nbsp;&nbsp;<a
+          href="https://www.freepik.com/free-vector/marketing-consulting-concept-illustration_25025577.htm#fromView=search&page=1&position=0&uuid=88b47b2b-3d6a-4a6d-bc97-c80a694b060a"
+          >Image by storyset on Freepik</a
+        >
+      </p>
     </footer>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
-      document.addEventListener("DOMContentLoaded", function () {
-        const menuToggle = document.querySelector(".menu-toggle");
-        const navLinks = document.querySelector(".nav-links");
-
-        menuToggle.addEventListener("click", function () {
-          navLinks.classList.toggle("active");
-        });
-      });
     </script>
   </body>
 </html>
